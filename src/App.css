@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 580px;
+  margin: auto;
+  border: 2px solid black;
+}
+.buttons {
+  width: 20%;
+  height: 40px;
+  padding: 20px;
+  border: 2px solid black;
+  float: left;
+}
+.constainaction {
+  margin: auto;
+  width: 50%;
+}
+.answer {
+  font-size: 20px;
+  width: 50%;
+  height: 50px;
+}
+.poweraction {
+  width: 20%;
+  height: 40px;
+  padding: 20px;
+  float: left;
+  border: 2px solid black;
+  background-color: darkgreen;
+}
+.spacingArounddiv {
+  margin: auto;
+  width: 50%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
